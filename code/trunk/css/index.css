@@ -1,0 +1,308 @@
+@charset 'utf-8';
+/* 今日推荐 */
+/**公共的标题**/
+.com-title{
+    line-height: 34px;
+    border-bottom: 6px solid #f60;
+}
+
+#recommend .re-con{
+    width:1188px;
+    margin: 0 auto;
+}
+#recommend .re-con ul{
+    width: 1188px;
+    border-left: 1px solid #f60;
+  
+    
+}
+#recommend .re-con li{
+    float: left;
+    width: 198px;
+    height: 250px;
+    border-bottom: 1px solid #f60;
+    border-right: 1px solid #f60;
+    box-sizing: border-box;
+}
+#recommend .re-con ul li p{
+    line-height: 22px;
+}
+/* ---电子书---- */
+#ebook .ebook-left{
+    width: 904px;
+}
+#ebook .ebook-left .com-title li {
+    width: 100px;
+    line-height: 34px;
+    cursor: pointer;
+
+}
+#ebook .ebook-left .com-title li.active {
+    background-color: #f60;
+    color: #fff;
+}
+/* 电子书内容区域 */
+#ebook .ebook-left .con {
+    display: none;
+}
+#ebook .ebook-left .con.cur {
+   display: block;
+}
+#ebook .ebook-left .con .categorylinks{
+    width: 240px;
+    height: 442px;
+    background-color: #f9f9f9;
+}
+#ebook .ebook-left .con .categorylinks div a{
+    float: left;
+    width: 100px;
+    height: 26px;
+    color: #333333;
+}
+/*  */
+#ebook .ebook-left .con .bookslist{
+    width: 664px;
+    /* height: 442px; */
+    
+}
+#ebook .ebook-left .con .bookslist > ul > li:first-child {
+    width: 332px;
+}
+#ebook .ebook-left .con .bookslist > ul > li:nth-child(3),
+#ebook .ebook-left .con .bookslist > ul > li:nth-child(7)
+ {
+     border-right:1px solid #ccc ;
+ }
+
+#ebook .ebook-left .con .bookslist > ul > li {
+    float: left;
+    width: 166px;
+    height: 220px;
+    /* border: 1px solid #ccc; */
+    border-left:1px solid #ccc;
+    border-bottom:1px solid #ccc; 
+    box-sizing: border-box;
+}
+#ebook .ebook-left .con .bookslist > ul > li:nth-child(4n) {
+    border-right: 1px solid #ccc;
+}
+
+#ebook .ebook-left .con .bookslist > ul > li  h3{
+    line-height: 34px;
+}
+#ebook .ebook-left .con .bookslist > ul > li  p{
+    line-height: 22px;
+}
+ 
+/* 右边的新书畅销榜 */
+#ebook .ebook-right{
+    width: 280px;
+    margin-top:34px ;
+    border: 1px solid #ccc;
+}
+#ebook .ebook-right h4{
+    line-height: 50px;
+    color: #808080;
+}
+
+#ebook .ebook-right ul li{
+    position: relative;    
+    line-height: 40px;
+    border-bottom:1px solid #ccc ;
+    color: #4d4d4d;
+    font-size: 16px;
+}
+#ebook .ebook-right ul li:last-child{
+    border: 0;
+}
+#ebook .ebook-right ul li div{
+
+   display: none;
+}
+#ebook .ebook-right ul li .title.curtitle{
+    display: none;
+}
+#ebook .ebook-right ul li div.cur{
+    display: block;
+}
+
+#ebook .ebook-right ul li span{
+    position: absolute;
+    left:-14px;
+    top: 0px;
+}
+#ebook .ebook-right ul li .title{
+    font-size: 16px;
+    color: #4d4d4d;
+}
+
+#ebook .ebook-right ul li div p{
+  
+    line-height: 20px;
+    color: #404040;
+    padding: 5px;
+}
+#cloth{
+    margin-top: 54px;
+}
+ .cloth-title{
+    width: 1200px;
+    border-bottom:6px solid #f60;
+}
+.cloth-title ul li{
+  margin-right:36px;
+  line-height: 34px;
+}
+.cloth-title ul li{
+    background-color: #f60;
+}
+.cloth-x{
+    width: 240px;
+    height: 490px;  
+}
+.cloth-x a{
+   line-height: 38px;
+   padding-right: 30px;
+    color: #333333;
+}
+.cloth-r{
+    width: 530px;
+    height: 500px;
+}
+.cloth-r img{
+    width: 170px;
+    
+}
+.cx{
+    display: none;
+}
+.cx.cur {
+   display: block;
+}
+.logo{
+    width: 1200px;
+}
+ .logo p{
+    float: left;
+}
+/* 户外 */
+#outdoor{
+    margin-top: 70px;
+}
+#outdoor  .cloth-x{
+    width: 237px;
+    height: 348px;
+}
+#outdoor  .cloth-x .tp{
+    width: 237px;
+    height: 348px;
+}
+/* 童装 */
+#childcloth{
+    margin-top: 70px;
+}
+#childcloth  .cloth-x{
+    width: 237px;
+    height: 348px;
+}
+#childcloth .cloth-x .tp{
+    width: 237px;
+    height: 348px;
+}
+ #house-r{
+    width: 715px;
+}
+ .cloth-x{
+    height: 433px;
+}
+ .cloth-x .house-l{
+    height: 433px;
+}
+#tou{
+    margin-top: 70px;
+}
+.swag{
+    width: 1200px;
+}
+.swag ul{
+   text-align: center;
+}
+.swag ul li{
+    float: left;
+    width: 214px;
+	height: 300px;
+}
+
+.swag ul li:first-child{
+    background-color: #f2f2f2;
+}
+.swag ul li span{
+    color: #f4290d;
+}
+.swag ul li i{
+    display: inline-block;
+    width: 23px;
+    height: 14px;
+    background: url(../imgs/index27_14.jpg)no-repeat;
+    background-position: -4px -4px;
+}
+
+#footering .top{
+    margin-left: 1200px;
+}
+#footering .tou{
+    width: 100%;
+    border-top: 6px solid#f60;
+    background-color: #f2f2f2;
+}
+#footering .tou ul li{
+    margin: 26px 0 26px 100px;
+}
+.wei .weiu li{
+    font-size: 18px;
+    line-height: 28px;
+}
+.wei .weiu li a{
+    color: #000000;
+}
+.wei .weiu{
+    margin:36px 0 0 70px;
+    text-align: center;
+}
+.wei img{
+    margin:64px 0 0 100px;
+}
+.wei .di{
+    width: 780px;
+	height: 15px;
+    margin-top: 84px;
+    margin-left:60px; 
+}
+.wei .di li{
+    float: left;
+    margin-left: 20px;
+}
+.wei .di a{
+    color: #333333;
+}
+.wei .dile{
+    width: 370px;
+    height: 14px;
+    margin-left:248px; 
+    margin-top: 34px;
+}
+.wei .dile a{
+    color: #333333;
+}
+.fx{
+position: fixed;
+right: 0;
+bottom: 300px;
+}
+.fx .fx-d{
+    /* display: none; */
+    position: fixed;
+    right: 39px;
+    top: 276px;
+    
+}
